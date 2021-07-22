@@ -6,7 +6,7 @@ for i in $cephcsi
 do
     image_name=$(echo $i|awk -F : '{print $1}'|awk -F / '{print $NF}')
     mkdir -p $image_name
-    echo "FORM $i" > $image_name/Dockerfile
+    echo "FROM $i" > $image_name/Dockerfile
 done
 
 
