@@ -1,1 +1,1 @@
-FROM asia.gcr.io/google-containers/kube-scheduler:v1.20.8
+FROM k8s.gcr.io/kube-scheduler-amd64:v1.20.8
