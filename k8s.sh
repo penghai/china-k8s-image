@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=v1.20.8
+version=v1.20.9
 arch=amd64
 
 for i in {kube-apiserver,kube-controller-manager,kube-scheduler,kube-proxy}
