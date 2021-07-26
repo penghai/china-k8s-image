@@ -28,3 +28,7 @@ done
 mkdir -p flannel
 
 echo "FROM quay.io/coreos/flannel:v0.13.0" > ./flannel/Dockerfile
+
+#quay.io/tigera/operator:v1.17.4
+mkdir -p operator
+echo "FROM quay.io/tigera/operator:v1.17.4" > ./operator/Dockerfile
