@@ -20,3 +20,10 @@ do
     version=$(echo $i|awk -F : '{print $2}')
     echo "FROM k8s.gcr.io/${image_name}:${version}" > ./$image_name/Dockerfile
 done
+
+
+#quay.io/coreos/flannel:v0.14.0
+
+mkdir -p flannel
+
+echo "FROM quay.io/coreos/flannel:v0.14.0" > ./flannel/Dockerfile
