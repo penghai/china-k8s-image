@@ -23,7 +23,8 @@ done
 
 
 #quay.io/coreos/flannel:v0.14.0
+#quay.io/coreos/flannel:v0.13.0
 
 mkdir -p flannel
 
-echo "FROM quay.io/coreos/flannel:v0.14.0" > ./flannel/Dockerfile
+echo "FROM quay.io/coreos/flannel:v0.13.0" > ./flannel/Dockerfile
