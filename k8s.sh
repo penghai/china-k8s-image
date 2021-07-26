@@ -18,5 +18,5 @@ do
     image_name=$(echo $i|awk -F : '{print $1}')
     mkdir -p $image_name
     version=$(echo $i|awk -F : '{print $2}')
-    echo "FROM k8s.gcr.io/${image_name}-${arch}:${version}" > ./$image_name/Dockerfile
+    echo "FROM k8s.gcr.io/${image_name}:${version}" > ./$image_name/Dockerfile
 done
