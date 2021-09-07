@@ -1,6 +1,6 @@
 
 
-elk=docker.elastic.co/elasticsearch/elasticsearch:7.13.4,docker.elastic.co/beats/filebeat:7.13.4-arm64,docker.elastic.co/beats/journalbeat:7.13.4-arm64,docker.elastic.co/beats/metricbeat:7.13.4-arm64,docker.elastic.co/kibana/kibana:7.13.4-arm64
+elk=docker.elastic.co/elasticsearch/elasticsearch:7.13.4-arm64,docker.elastic.co/beats/filebeat:7.13.4-arm64,docker.elastic.co/beats/journalbeat:7.13.4-arm64,docker.elastic.co/beats/metricbeat:7.13.4-arm64,docker.elastic.co/kibana/kibana:7.13.4-arm64
 
 IFS=","
 for i in $elk
