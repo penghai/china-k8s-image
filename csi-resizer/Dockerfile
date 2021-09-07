@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/sig-storage/csi-resizer:v1.2.0
+FROM k8s.gcr.io/sig-storage/csi-resizer:v1.2.0-arm64
